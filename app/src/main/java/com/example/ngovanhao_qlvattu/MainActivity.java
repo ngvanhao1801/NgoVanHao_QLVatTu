@@ -122,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
               Toast.LENGTH_LONG).show();
         }
         btnThem.setEnabled(true);
+        edtMaVt.setEnabled(true);
       }
     });
 

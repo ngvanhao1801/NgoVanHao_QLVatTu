@@ -67,6 +67,7 @@ public class NgoHao_VTDatabase extends SQLiteOpenHelper {
   public int CapnhatVT(NgoHao_VatTu vt) {
     SQLiteDatabase db = this.getWritableDatabase();
     ContentValues values = new ContentValues();
+    values.put(ID, vt.getMaVatTu());
     values.put(NAME, vt.getTenVatTu());
     values.put(NHASANXUAT, vt.getNhaSanXuat());
     values.put(NAMSANXUAT, vt.getNamSanXuat());

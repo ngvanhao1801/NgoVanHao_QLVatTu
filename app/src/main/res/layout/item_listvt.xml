@@ -1,61 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
 
     <TextView
         android:id="@+id/tv_mavt"
+        android:layout_width="100dp"
+        android:layout_height="108dp"
+        android:gravity="center"
         android:text="Mã vật tư:"
         android:textSize="25sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_width="100dp"
-        android:layout_height="108dp"/>
+        android:textStyle="bold" />
+
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tv_tenvt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Tên vật tư:"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_nhasx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Nhà sản xuất:"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_namsx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Năm sản xuất:"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_soluong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Số lượng:"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_dongia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Đơn giá:"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 </LinearLayout>
